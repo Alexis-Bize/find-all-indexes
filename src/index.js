@@ -1,4 +1,4 @@
-export default findAllIndexes = (entry, values = [], options = {}) => {
+const findAllIndexes = (entry, values = [], options = {}) => {
 
     let i = -1;
     const list = [];
@@ -14,3 +14,5 @@ export default findAllIndexes = (entry, values = [], options = {}) => {
     return list;
 
 }
+
+export default findAllIndexes
